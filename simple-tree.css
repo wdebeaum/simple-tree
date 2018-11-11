@@ -1,0 +1,26 @@
+.subtree.collapsed > .children {
+  display: none;
+}
+
+.node::before {
+  display: inline-block;
+  width: 1em;
+  text-align: center;
+  vertical-align: top;
+}
+
+.subtree.collapsed > .node::before {
+  content: "▸";
+}
+
+.subtree.expanded > .node::before {
+  content: "▾";
+}
+
+.subtree.leaf > .node::before {
+  content: "▪";
+}
+
+.children {
+  padding-left: 1em;
+}
