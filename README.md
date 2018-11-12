@@ -25,9 +25,9 @@ You are not restricted to using `div` elements. You can also for example use `ul
 ### Cons
 
  - Lacks many built-in UI features like:
-  - item selection
-  - editing
-  - icons (except ▸/▾/▪)
-  - connecting lines
-  - smooth animation
+   - item selection
+   - editing
+   - icons (except ▸/▾/▪)
+   - connecting lines
+   - smooth animation
  - No data structure backing the tree besides the DOM itself.
