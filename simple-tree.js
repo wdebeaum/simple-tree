@@ -3,11 +3,9 @@
 function toggleExpandedCollapsed(evt) {
   var subtree = evt.currentTarget.parentNode;
   if (subtree.matches('.collapsed')) {
-    subtree.classList.remove('collapsed');
-    subtree.classList.add('expanded');
+    subtree.classList.replace('collapsed', 'expanded');
   } else {
-    subtree.classList.remove('expanded');
-    subtree.classList.add('collapsed');
+    subtree.classList.replace('expanded', 'collapsed');
   }
 }
 

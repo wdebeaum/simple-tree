@@ -24,3 +24,12 @@
 .children {
   padding-left: 1em;
 }
+
+/* top-level ul */
+:not(.subtree) > ul.children {
+  padding-left: 0;
+}
+
+li.subtree {
+  list-style-type: none;
+}

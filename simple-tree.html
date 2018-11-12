@@ -10,6 +10,8 @@
 
 <h1>Simple Tree example</h1>
 
+<h2>With &lt;div&gt;s</h2>
+
 <div class="subtree">
  <div class="node">root</div>
  <div class="children">
@@ -26,6 +28,19 @@
   </div>
  </div>
 </div>
+
+<h2>With &lt;ul&gt;/&lt;li&gt;/&lt;span&gt;</h2>
+
+<ul class="children">
+ <li class="subtree"><span class="node">root</span>
+  <ul class="children">
+   <li class="subtree"><span class="node">child 1</span>
+   <li class="subtree"><span class="node">child 2</span>
+    <ul class="children">
+     <li class="subtree"><span class="node">grandchild</span>
+    </ul>
+  </ul>
+</ul>
 
 </body>
 </html>
